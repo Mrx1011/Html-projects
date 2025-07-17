@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #000000;
+}
+#main{
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shape{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 35px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+#circle:hover{
+    background-color: rgb(55, 255, 0);
+    border: 1px solid;
+    border-radius: 50%;
+}
+#circle{
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+#square:hover{
+    background-color: rgb(255, 0, 0);
+    border: 1px solid;
+}
+#square{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+
+}
+
+#diamond:hover{
+    margin-top: 45px;
+    background-color: rgb(0, 21, 255);
+    border: 1px solid;
+    rotate: 45deg;
+}
+#diamond{
+    background-color: #fff;
+    margin-top: 45px;
+    border: 1px solid;
+    rotate: 45deg;
+}
+
+#diamond h1{
+    rotate: -45deg;
+}
